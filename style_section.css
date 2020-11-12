@@ -1,0 +1,17 @@
+/* These styles are present in every webpage which implements the switch to dark mode */
+
+.section--pop--out{
+    transition: .5s transform;
+    transform: scale(0);
+}
+
+.section--pop--out--delay{
+    transition: .5s .5s transform;
+    transform: scale(0);
+}
+
+/* Pop in the section part of the webpage */
+.section--pop--in{
+    transition: .5s transform;
+    transform: scale(1);
+}
